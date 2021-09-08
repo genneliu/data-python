@@ -94,7 +94,7 @@ loser = 'Glimmer'
 def the_eliminator(cont, loser):
     for i in cont:
         if i == loser:
-            cont.pop(i)
+            cont.pop(cont.index(i))
     return cont
 
 
